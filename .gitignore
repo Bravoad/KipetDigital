@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtualenv
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Pytest
+.pytest_cache/
+
+# Secrets / environment variables
+.env
+.env.*
+
+# IDEs
+.idea/
+
+# Docker
+*.pid
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Migration backups
+*/migrations/__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db

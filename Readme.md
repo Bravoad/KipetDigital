@@ -56,6 +56,16 @@ pip install -r requirements.txt
 
 # Запустите приложение
 python manage.py runserver
+
+🐳 Запуск через Docker
+bash
+Копировать
+Редактировать
+# Соберите и запустите контейнер
+docker compose up --build
+
+# Приложение будет доступно по адресу
+http://localhost:8000/
 📑 Документация API
 После запуска проекта документация доступна по адресу:
 
